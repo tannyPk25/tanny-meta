@@ -1,0 +1,10 @@
+export RPC_URL=https://api.devnet.solana.com
+export MINT=9z1duw9E8v8WJZbZyTre16bBGK94sj7kaw9Z1FUThd9G
+export KEYPAIR_PATH=/home/$USER/.config/solana/tann.json
+export TOKEN_NAME="Tanny Crypto Bot"
+export TOKEN_SYMBOL="TANN"
+export METADATA_URI="https://raw.githubusercontent.com/tannyPk25/tanny-meta/main/tann.json"
+
+cd ~/tanny_meta
+node set_or_update_metadata.mjs
+node get_metadata.mjs   # ar trebui să vezi Name/Symbol/URI populate
