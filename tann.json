@@ -1,0 +1,11 @@
+{
+  "name": "Tanny Crypto Bot",
+  "symbol": "TANN",
+  "description": "Utility token pentru ecosistemul Tanny Crypto Bot: acces abonamente, reduceri comisioane, cashback afiliere.",
+  "image": "https://raw.githubusercontent.com/tannyPk25/tanny-meta/main/tann.png",
+  "extensions": {
+    "website": "https://tannycryptobot.com",
+    "telegram": "https://t.me/<canalul_tau>"
+  },
+  "tags": ["utility", "trading-bot", "solana"]
+}
